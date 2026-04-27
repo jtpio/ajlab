@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ajlab"
+description = "Agent ready JupyterLab"
+requires-python = ">=3.10"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Jeremy Tuloup" },
+]
+keywords = ["jupyter", "jupyterlab", "agent", "ai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Jupyter",
+    "Framework :: Jupyter :: JupyterLab",
+    "Framework :: Jupyter :: JupyterLab :: 4",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dynamic = ["version"]
+dependencies = [
+    "jupyterlab",
+    "jupyter-docprovider",
+    "jupyter-server-ydoc",
+]
+
+[project.urls]
+Homepage = "https://github.com/jtpio/ajlab"
+Repository = "https://github.com/jtpio/ajlab"
+Issues = "https://github.com/jtpio/ajlab/issues"
+
+[tool.hatch.version]
+path = "src/ajlab/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ajlab"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/LICENSE",
+    "/pyproject.toml",
+]
