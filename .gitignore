@@ -17,12 +17,20 @@ env/
 
 # uv
 .uv/
+uv.lock
 
 # Tools
 .hatch/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+*.nbconvert.ipynb
+.jupyter/
+.jupyter_ystore.db
 
 # IDE
 .vscode/

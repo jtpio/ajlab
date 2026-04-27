@@ -29,6 +29,7 @@ classifiers = [
 dynamic = ["version"]
 dependencies = [
     "jupyterlab",
+    "jupyter-collaboration-ui",
     "jupyter-docprovider",
     "jupyter-server-ydoc",
 ]
@@ -44,9 +45,13 @@ path = "src/ajlab/__init__.py"
 [tool.hatch.build.targets.wheel]
 packages = ["src/ajlab"]
 
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyter-config/labconfig" = "etc/jupyter/labconfig"
+
 [tool.hatch.build.targets.sdist]
 include = [
     "/src",
+    "/jupyter-config",
     "/LICENSE",
     "/pyproject.toml",
 ]
