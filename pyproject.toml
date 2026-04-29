@@ -32,7 +32,9 @@ dependencies = [
     "jupyterlab",
     "jupyter-collaboration-ui",
     "jupyter-docprovider",
+    "jupyter-server-mcp",
     "jupyter-server-ydoc",
+    "jupyterlab-commands-toolkit",
 ]
 
 [project.urls]
