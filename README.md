@@ -30,6 +30,9 @@ override versions and Jupyter configuration in the usual ways.
 
 - `dockPanelPadding` is disabled for the main shell, giving the workspace a
   tighter layout with less padding around docked content.
+- Hidden files and folders are shown in the file browser by default. This is
+  enabled both in JupyterLab's file browser setting and in Jupyter Server's
+  contents manager so hidden paths are available to the browser.
 - The extra human-collaboration UI surfaces are disabled by default:
   `rtcPanel`, `shared-link`, `user-menu-bar`, `userEditorCursors`, and
   `userMenu`.

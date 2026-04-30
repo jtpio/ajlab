@@ -51,6 +51,7 @@ packages = ["src/ajlab"]
 
 [tool.hatch.build.targets.wheel.shared-data]
 "jupyter-config/labconfig" = "etc/jupyter/labconfig"
+"jupyter-config/jupyter_server_config.json" = "etc/jupyter/jupyter_server_config.json"
 
 [tool.hatch.build.targets.sdist]
 include = [
