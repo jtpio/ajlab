@@ -2,10 +2,15 @@
 
 Agent-ready JupyterLab.
 
+![](./screenshot.png)
+
 `ajlab` is a small meta-package for installing the JupyterLab pieces we use for
 agent-oriented workflows in one step. It does not add a new application layer of
 its own. Instead, it defines the dependency set and ships a little JupyterLab
 configuration under `etc/jupyter/labconfig`.
+
+The project is aimed at providing a good agent experience using terminals
+directly within JupyterLab.
 
 The goal is to keep the package easy to inspect: most behavior comes from the
 upstream Jupyter packages, while `ajlab` defines the default environment we want
