@@ -29,11 +29,12 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
-    "jupyterlab",
+    "jupyterlab>=4.6.0a5",
     "jupyter-collaboration-ui",
     "jupyter-docprovider",
     "jupyter-server-mcp",
     "jupyter-server-ydoc",
+    "jupyterlab-git>=0.53.0",
     "jupyterlab-commands-toolkit",
 ]
 
