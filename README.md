@@ -45,6 +45,10 @@ override versions and Jupyter configuration in the usual ways.
 The collaboration and document-provider packages are still installed. The
 default UI is just kept quieter for agent-centered sessions.
 
+The JupyterLab frontend defaults are shipped as `labconfig/*.d/00-ajlab.json`
+fragments so downstream meta-packages can add their own Lab configuration
+fragments without replacing `ajlab`'s files.
+
 ## Install
 
 ```bash
