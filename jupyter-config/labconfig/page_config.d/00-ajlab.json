@@ -1,9 +1,0 @@
-{
-    "disabledExtensions": {
-        "@jupyter/collaboration-extension:rtcPanel": true,
-        "@jupyter/collaboration-extension:shared-link": true,
-        "@jupyter/collaboration-extension:user-menu-bar": true,
-        "@jupyter/collaboration-extension:userEditorCursors": true,
-        "@jupyter/collaboration-extension:userMenu": true
-    }
-}
