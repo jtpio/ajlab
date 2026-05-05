@@ -14,7 +14,6 @@ Minimum versions (see [`pyproject.toml`](./pyproject.toml)):
 - `jupyterlab >=4.6.0a5`
 - `jupyter-docprovider >=2.4.0a0` and `jupyter-server-ydoc >=2.4.0a0`
 - `jupyter-server-mcp`
-- `jupyterlab-git >=0.53.0`
 - `jupyterlab-commands-toolkit`
 
 ## Default settings
