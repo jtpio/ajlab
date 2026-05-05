@@ -9,10 +9,12 @@ useful for agent workflows, and ships some defaults under `etc/jupyter/labconfig
 
 ## What's included
 
-- JupyterLab 4.6+
-- `jupyter-docprovider` and `jupyter-server-ydoc`
+Minimum versions (see [`pyproject.toml`](./pyproject.toml)):
+
+- `jupyterlab >=4.6.0a5`
+- `jupyter-docprovider >=2.4.0a0` and `jupyter-server-ydoc >=2.4.0a0`
 - `jupyter-server-mcp`
-- `jupyterlab-git`
+- `jupyterlab-git >=0.53.0`
 - `jupyterlab-commands-toolkit`
 
 ## Default settings
@@ -24,6 +26,31 @@ useful for agent workflows, and ships some defaults under `etc/jupyter/labconfig
 ```bash
 pip install ajlab
 ```
+
+## Run
+
+Once installed, start JupyterLab with:
+
+```bash
+jupyter lab
+```
+
+## Configure agents
+
+Agent connectivity is provided by [`jupyter-server-mcp`][mcp], which exposes an
+MCP endpoint (default `http://localhost:3001/mcp`) that any MCP client can
+connect to.
+
+For example, to wire it up to Claude Code:
+
+```bash
+claude mcp add --transport http jupyter-mcp http://localhost:3001/mcp
+```
+
+See the [`jupyter-server-mcp` README][mcp] for tool registration via
+`jupyter_config.py` and snippets for other MCP clients.
+
+[mcp]: https://github.com/jupyter-ai-contrib/jupyter-server-mcp
 
 ## License
 
