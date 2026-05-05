@@ -1,7 +1,4 @@
 {
-    "@jupyterlab/application-extension:shell": {
-        "dockPanelPadding": false
-    },
     "@jupyterlab/filebrowser-extension:browser": {
         "showHiddenFiles": true
     }

@@ -17,7 +17,6 @@ useful for agent workflows, and ships some defaults under `etc/jupyter/labconfig
 
 ## Default settings
 
-- `dockPanelPadding` off.
 - Hidden files shown in the file browser.
 
 ## Install
