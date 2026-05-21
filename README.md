@@ -46,8 +46,12 @@ working unchanged when several Jupyter servers run side by side or when the port
 is assigned dynamically. To wire it up to Claude Code:
 
 ```bash
-claude mcp add jupyter-mcp -- uvx --from jupyter-server-mcp jupyter-server-mcp-proxy
+claude mcp add jupyter-mcp -- uvx --prerelease allow --from jupyter-server-mcp jupyter-server-mcp-proxy
 ```
+
+> `jupyter-server-mcp` is currently a pre-release. `uvx` skips pre-releases by
+> default, so pass `--prerelease allow` or it silently installs the older stable
+> release and the proxy/server versions won't match.
 
 Alternatively, for a single server on a fixed port, connect directly over HTTP:
 
