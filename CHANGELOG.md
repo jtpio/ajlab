@@ -2,6 +2,25 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.7
+
+([Full Changelog](https://github.com/jtpio/ajlab/compare/v0.1.6...3613d6b3fbf972a1bff1f1853ef74261f4bd1d8a))
+
+### Merged PRs
+
+- Bump `jupyter-server-mcp` [#5](https://github.com/jtpio/ajlab/pull/5) ([@jtpio](https://github.com/jtpio))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/jtpio/ajlab/graphs/contributors?from=2026-05-12&to=2026-05-21&type=c))
+
+@jtpio ([activity](https://github.com/search?q=repo%3Ajtpio%2Fajlab+involves%3Ajtpio+updated%3A2026-05-12..2026-05-21&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.6
 
 ([Full Changelog](https://github.com/jtpio/ajlab/compare/v0.1.5...b397c133c70ffba8d71be427b320b45926c0cf90))
@@ -18,8 +37,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/jtpio/ajlab/graphs/contributors?from=2026-05-05&to=2026-05-12&type=c))
 
 @jtpio ([activity](https://github.com/search?q=repo%3Ajtpio%2Fajlab+involves%3Ajtpio+updated%3A2026-05-05..2026-05-12&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.5
 
