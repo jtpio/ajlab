@@ -2,6 +2,25 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.9
+
+([Full Changelog](https://github.com/jtpio/ajlab/compare/v0.1.8...5679d07de2e95fc9627dc6b274f3c86eed35c9ba))
+
+### Merged PRs
+
+- Bump collaboration packages [#7](https://github.com/jtpio/ajlab/pull/7) ([@jtpio](https://github.com/jtpio))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/jtpio/ajlab/graphs/contributors?from=2026-06-04&to=2026-06-10&type=c))
+
+@jtpio ([activity](https://github.com/search?q=repo%3Ajtpio%2Fajlab+involves%3Ajtpio+updated%3A2026-06-04..2026-06-10&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.8
 
 ([Full Changelog](https://github.com/jtpio/ajlab/compare/v0.1.7...a6dc4b0f01fb5c8bc3ba30b9497a447a6b0242c6))
@@ -18,8 +37,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/jtpio/ajlab/graphs/contributors?from=2026-05-21&to=2026-06-04&type=c))
 
 @jtpio ([activity](https://github.com/search?q=repo%3Ajtpio%2Fajlab+involves%3Ajtpio+updated%3A2026-05-21..2026-06-04&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.7
 
