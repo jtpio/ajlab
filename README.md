@@ -11,10 +11,10 @@ useful for agent workflows, and ships some defaults under `etc/jupyter/labconfig
 
 Minimum versions (see [`pyproject.toml`](./pyproject.toml)):
 
-- `jupyterlab >=4.6.0b1`
+- `jupyterlab >=4.6.0`
 - `jupyter-docprovider >=3.0.0a0` and `jupyter-server-ydoc >=3.0.0a0`
 - `jupyter-server-mcp >=0.3.0a0`
-- `jupyterlab-commands-toolkit`
+- `jupyterlab-commands-toolkit >=0.1.6`
 
 ## Default settings
 
