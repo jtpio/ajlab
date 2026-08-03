@@ -12,7 +12,7 @@ useful for agent workflows, and ships some defaults under `etc/jupyter/labconfig
 Minimum versions (see [`pyproject.toml`](./pyproject.toml)):
 
 - `jupyterlab >=4.6.1`
-- `jupyter-docprovider >=3.0.0a0` and `jupyter-server-ydoc >=3.0.0a0`
+- `jupyter-docprovider >=3.0.0` and `jupyter-server-ydoc >=3.0.0`
 - `jupyter-server-mcp >=0.3.0a0`
 - `jupyterlab-commands-toolkit >=0.1.6`
 
