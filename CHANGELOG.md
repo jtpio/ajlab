@@ -2,6 +2,25 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.12
+
+([Full Changelog](https://github.com/jtpio/ajlab/compare/v0.1.11...2c756db70caf3d153c7dc0e99a041c9b8183f768))
+
+### Documentation improvements
+
+- Require stable jupyter-server-mcp and update MCP setup docs [#11](https://github.com/jtpio/ajlab/pull/11) ([@jtpio](https://github.com/jtpio))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/jtpio/ajlab/graphs/contributors?from=2026-08-05&to=2026-10-01&type=c))
+
+@jtpio ([activity](https://github.com/search?q=repo%3Ajtpio%2Fajlab+involves%3Ajtpio+updated%3A2026-08-05..2026-10-01&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.11
 
 ([Full Changelog](https://github.com/jtpio/ajlab/compare/v0.1.10...750042546a716e2c29b2db0487b36a4eafce940e))
@@ -19,8 +38,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/jtpio/ajlab/graphs/contributors?from=2026-06-23&to=2026-08-05&type=c))
 
 @jtpio ([activity](https://github.com/search?q=repo%3Ajtpio%2Fajlab+involves%3Ajtpio+updated%3A2026-06-23..2026-08-05&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.10
 
