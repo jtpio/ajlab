@@ -13,8 +13,8 @@ Minimum versions (see [`pyproject.toml`](./pyproject.toml)):
 
 - `jupyterlab >=4.6.1`
 - `jupyter-docprovider >=3.0.0` and `jupyter-server-ydoc >=3.0.0`
-- `jupyter-server-mcp >=0.3.0a0`
-- `jupyterlab-commands-toolkit >=0.1.6`
+- `jupyter-server-mcp >=0.3.0`
+- `jupyterlab-commands-toolkit >=0.2.0`
 
 ## Default settings
 
@@ -43,20 +43,24 @@ can connect to.
 The recommended way to connect a client is the stdio proxy, which auto-discovers
 the running Jupyter MCP server and bridges stdio to its HTTP endpoint. It keeps
 working unchanged when several Jupyter servers run side by side or when the port
-is assigned dynamically. To wire it up to Claude Code:
+is assigned dynamically. The proxy is installed alongside `ajlab`, so to wire it
+up to Claude Code from a JupyterLab terminal:
 
 ```bash
-claude mcp add jupyter-mcp -- uvx --prerelease allow --from jupyter-server-mcp jupyter-server-mcp-proxy
+claude mcp add jupyter -- jupyter-server-mcp-proxy
 ```
 
-> `jupyter-server-mcp` is currently a pre-release. `uvx` skips pre-releases by
-> default, so pass `--prerelease allow` or it silently installs the older stable
-> release and the proxy/server versions won't match.
+From an environment where `jupyter-server-mcp-proxy` is not on the `PATH`, run it
+with `uvx` instead:
+
+```bash
+claude mcp add jupyter -- uvx --from jupyter-server-mcp jupyter-server-mcp-proxy
+```
 
 Alternatively, for a single server on a fixed port, connect directly over HTTP:
 
 ```bash
-claude mcp add --transport http jupyter-mcp http://localhost:3001/mcp
+claude mcp add --transport http jupyter http://localhost:3001/mcp
 ```
 
 See the [`jupyter-server-mcp` README][mcp] for tool registration via
